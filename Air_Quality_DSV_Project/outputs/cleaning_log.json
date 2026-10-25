@@ -1,0 +1,24 @@
+{
+  "source_rows_after_valid_city_date": 25555,
+  "duplicate_city_date_rows_removed": 0,
+  "cleaned_rows": 25555,
+  "cities": 22,
+  "date_start": "2015-01-01",
+  "date_end": "2020-04-10",
+  "negative_values_set_missing": "Negative values in available pollutant columns and AQI were converted to missing.",
+  "interpolated_cells_by_pollutant": {
+    "PM2.5": 375,
+    "PM10": 368,
+    "NO": 442,
+    "NO2": 466,
+    "NOx": 297,
+    "NH3": 354,
+    "CO": 546,
+    "SO2": 508,
+    "O3": 537,
+    "Benzene": 514,
+    "Toluene": 462,
+    "Xylene": 332
+  },
+  "note": "AQI_Bucket is re-labelled from the dataset's existing AQI values; AQI itself is not recalculated from pollutant sub-indices."
+}

@@ -1,0 +1,6 @@
+Finding,Category/period,Value,Metric
+Highest mean AQI city,Ahmedabad,473.91,Mean AQI
+Highest PM2.5 season,Winter,103.28,Mean PM2.5
+Strongest Spearman association with AQI,PM10,0.872,Spearman rho
+Mean city-level lockdown-window PM2.5 change,Matched dates 25 Mar–10 Apr,-13.31,Percent change
+Observed city-days Poor or worse,All available years,29.62,Percent

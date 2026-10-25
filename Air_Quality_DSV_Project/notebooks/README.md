@@ -1,0 +1,1 @@
+The analysis is maintained in analysis.py so it can be run reproducibly from a terminal. You can open this project folder in Jupyter and import functions from analysis.py if a notebook is required by your instructor.

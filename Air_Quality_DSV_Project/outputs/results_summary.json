@@ -1,0 +1,246 @@
+{
+  "rows_after_cleaning": 25555,
+  "city_count": 22,
+  "date_start": "2015-01-01",
+  "date_end": "2020-04-10",
+  "mean_aqi_all_city_days": 177.58,
+  "top10_mean_aqi_cities": [
+    {
+      "city": "Ahmedabad",
+      "mean_aqi": 473.91
+    },
+    {
+      "city": "Delhi",
+      "mean_aqi": 262.26
+    },
+    {
+      "city": "Patna",
+      "mean_aqi": 248.27
+    },
+    {
+      "city": "Gurugram",
+      "mean_aqi": 230.52
+    },
+    {
+      "city": "Lucknow",
+      "mean_aqi": 222.88
+    },
+    {
+      "city": "Talcher",
+      "mean_aqi": 179.99
+    },
+    {
+      "city": "Jorapokhar",
+      "mean_aqi": 162.75
+    },
+    {
+      "city": "Guwahati",
+      "mean_aqi": 156.49
+    },
+    {
+      "city": "Kolkata",
+      "mean_aqi": 151.54
+    },
+    {
+      "city": "Brajrajnagar",
+      "mean_aqi": 151.52
+    }
+  ],
+  "worst_city_by_mean_aqi": "Ahmedabad",
+  "worst_city_mean_aqi": 473.91,
+  "worst_season_by_pm25": "Winter",
+  "season_pm25_means": {
+    "Winter": 103.28,
+    "Post-monsoon": 94.84,
+    "Summer": 65.17,
+    "Monsoon": 40.61
+  },
+  "yearly_mean_pm25": {
+    "2015": 82.76,
+    "2016": 95.26,
+    "2017": 87.52,
+    "2018": 70.32,
+    "2019": 60.23,
+    "2020": 61.01
+  },
+  "percent_observed_days_poor_or_worse": 29.62,
+  "missingness_by_column": {
+    "Xylene": {
+      "missing_rows": 16085,
+      "missing_percent": 62.94
+    },
+    "PM10": {
+      "missing_rows": 10334,
+      "missing_percent": 40.44
+    },
+    "NH3": {
+      "missing_rows": 9431,
+      "missing_percent": 36.9
+    },
+    "Toluene": {
+      "missing_rows": 6947,
+      "missing_percent": 27.18
+    },
+    "Benzene": {
+      "missing_rows": 4608,
+      "missing_percent": 18.03
+    },
+    "AQI": {
+      "missing_rows": 4251,
+      "missing_percent": 16.63
+    },
+    "NO": {
+      "missing_rows": 4067,
+      "missing_percent": 15.91
+    },
+    "PM2.5": {
+      "missing_rows": 3880,
+      "missing_percent": 15.18
+    },
+    "NOx": {
+      "missing_rows": 3724,
+      "missing_percent": 14.57
+    },
+    "SO2": {
+      "missing_rows": 2991,
+      "missing_percent": 11.7
+    },
+    "O3": {
+      "missing_rows": 2973,
+      "missing_percent": 11.63
+    },
+    "NO2": {
+      "missing_rows": 2693,
+      "missing_percent": 10.54
+    },
+    "CO": {
+      "missing_rows": 1453,
+      "missing_percent": 5.69
+    }
+  },
+  "aqi_values_above_500_count": 538,
+  "strongest_absolute_spearman_association_with_aqi": {
+    "pollutant": "PM10",
+    "rho": 0.872
+  },
+  "lockdown_comparison": {
+    "requested_period": "25 March\u201330 June",
+    "available_2020_data_end": "2020-04-10",
+    "actual_comparison_note": "The supplied city_day.csv ends on 10 April 2020. Comparison is restricted to overlapping dates 25 March\u201310 April for 2019 and 2020; it cannot represent the full lockdown period.",
+    "city_results": [
+      {
+        "City": "Ahmedabad",
+        "Percent change 2020 vs 2019": -45.56
+      },
+      {
+        "City": "Amaravati",
+        "Percent change 2020 vs 2019": -7.38
+      },
+      {
+        "City": "Amritsar",
+        "Percent change 2020 vs 2019": -60.2
+      },
+      {
+        "City": "Bengaluru",
+        "Percent change 2020 vs 2019": -35.37
+      },
+      {
+        "City": "Brajrajnagar",
+        "Percent change 2020 vs 2019": 26.53
+      },
+      {
+        "City": "Chennai",
+        "Percent change 2020 vs 2019": -41.54
+      },
+      {
+        "City": "Delhi",
+        "Percent change 2020 vs 2019": -52.86
+      },
+      {
+        "City": "Gurugram",
+        "Percent change 2020 vs 2019": -64.27
+      },
+      {
+        "City": "Guwahati",
+        "Percent change 2020 vs 2019": 74.7
+      },
+      {
+        "City": "Hyderabad",
+        "Percent change 2020 vs 2019": -7.89
+      },
+      {
+        "City": "Jaipur",
+        "Percent change 2020 vs 2019": -61.12
+      },
+      {
+        "City": "Jorapokhar",
+        "Percent change 2020 vs 2019": 0.63
+      },
+      {
+        "City": "Kolkata",
+        "Percent change 2020 vs 2019": -0.03
+      },
+      {
+        "City": "Lucknow",
+        "Percent change 2020 vs 2019": -46.64
+      },
+      {
+        "City": "Mumbai",
+        "Percent change 2020 vs 2019": 40.14
+      },
+      {
+        "City": "Patna",
+        "Percent change 2020 vs 2019": -1.2
+      },
+      {
+        "City": "Talcher",
+        "Percent change 2020 vs 2019": 36.77
+      },
+      {
+        "City": "Thiruvananthapuram",
+        "Percent change 2020 vs 2019": 5.64
+      }
+    ],
+    "mean_city_percent_change": -13.31
+  },
+  "health_latest_available_year": 2019,
+  "health_latest_country_rates": [
+    {
+      "country": "Pakistan",
+      "rate": 192.1
+    },
+    {
+      "country": "Nepal",
+      "rate": 177.9
+    },
+    {
+      "country": "Bangladesh",
+      "rate": 143.9
+    },
+    {
+      "country": "India",
+      "rate": 139.3
+    },
+    {
+      "country": "China",
+      "rate": 95.3
+    },
+    {
+      "country": "Brazil",
+      "rate": 28.9
+    },
+    {
+      "country": "United States",
+      "rate": 14.2
+    },
+    {
+      "country": "United Kingdom",
+      "rate": 13.4
+    }
+  ],
+  "health_years_available": [
+    2019
+  ],
+  "health_scatter_year_count": 1,
+  "interpretation_caution": "Associations are descriptive and do not establish causality. 2020 is partial-year data."
+}
